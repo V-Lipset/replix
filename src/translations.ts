@@ -1,0 +1,52 @@
+export const translations = {
+  en: {
+    appName: "Replix",
+    caseSensitive: "Case Sensitive",
+    importFile: "Import",
+    runRules: "Run",
+    export: "Export",
+    rulesTab: "Rules",
+    previewTab: "Preview",
+    replacementRules: "Replacement Rules",
+    structured: "Structured",
+    textbox: "Textbox",
+    original: "Original",
+    replacement: "Replacement",
+    addRule: "Add Rule",
+    processing: "Processing...",
+    originalFile: "Original File",
+    processedOutput: "Processed Output",
+    noFile: "No file imported yet...",
+    noOutput: "Output will appear here...",
+    processingComplete: "Processing Complete",
+    expandAll: "Expand All",
+    collapseAll: "Collapse All",
+    removeFile: "Remove"
+  },
+  zh: {
+    appName: "Replix",
+    caseSensitive: "区分大小写",
+    importFile: "导入",
+    runRules: "运行",
+    export: "导出",
+    rulesTab: "规则",
+    previewTab: "预览",
+    replacementRules: "替换规则",
+    structured: "结构化",
+    textbox: "文本框",
+    original: "原文",
+    replacement: "替换为",
+    addRule: "添加规则",
+    processing: "处理中...",
+    originalFile: "原始文件",
+    processedOutput: "处理结果",
+    noFile: "尚未导入文件...",
+    noOutput: "输出结果将显示在这里...",
+    processingComplete: "处理完成",
+    expandAll: "全部展开",
+    collapseAll: "全部折叠",
+    removeFile: "移除"
+  }
+};
+
+export type Translation = typeof translations.en;
